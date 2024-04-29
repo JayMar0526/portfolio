@@ -1,3 +1,19 @@
+// load header page
+fetch('./layouts/header.html')
+.then(response => response.text())
+.then(html => {
+    document.getElementById('header-content').innerHTML = html;
+})
+.catch(error => console.error('Error fetching file:', error));
+
+// Load footer page
+fetch('./layouts/footer.html')
+.then(response => response.text())
+.then(html => {
+    document.getElementById('footer-content').innerHTML = html;
+})
+.catch(error => console.error('Error fetching file:', error));
+
 // ---
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
 const smallMenu = document.querySelector('.header__sm-menu')
@@ -36,3 +52,4 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+

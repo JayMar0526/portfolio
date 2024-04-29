@@ -111,6 +111,33 @@ textarea {
       .heading-sec__main::after {
         top: calc(100% + 1.2rem); } }
 
+.heading-sec__main-left {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  position: relative; }
+  .heading-sec__main-left--lt {
+    color: #fff; }
+    .heading-sec__main-left--lt::after {
+      content: '';
+      background: #fff !important; }
+  .heading-sec__main-left::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    height: 3px;
+    width: 2rem;
+    background: #4c4c4d;
+    left: 2%;
+    transform: translateX(-50%);
+    border-radius: 5px; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-sec__main-left::after {
+        top: calc(100% + 0.5rem); } }
+
 .heading-sec__sub {
   display: block;
   text-align: center;
@@ -154,6 +181,8 @@ textarea {
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
+    .btn--med-vc {
+      text-align: center;}
   .btn--theme {
     background: #0062b9;
     color: #fff; }
@@ -263,6 +292,24 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           font-size: 2.4rem; } }
+    .about__content-subtitle {
+      font-weight: 500;
+      font-size: 2.0rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem; }
+      .about__content-subtitle::after {
+        content: '';
+        position: absolute;
+        top: calc(100% + 1.5rem);
+        height: 5px;
+        width: 3rem;
+        background: #0062b9;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px; }
+        @media only screen and (max-width: 37.5em) {
+          .about__content-subtitle::after {
+            top: calc(100% + 1.2rem); } }
     .about__content-details-para {
       font-size: 1.8rem;
       color: grey;
@@ -663,10 +710,10 @@ textarea {
   display: flex;
   flex-wrap: wrap; }
   .skills__skill {
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
