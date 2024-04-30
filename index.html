@@ -7,6 +7,7 @@
     <title>Jay Profile</title>
     <meta name="description" content="Portfolio" />
 
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,10 +18,83 @@
     />
   </head>
   <body>
-    <header class="header"><div id="header-content"></div></header>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont dynamicBgClr">
+            <img
+              src="./assets/png/Jay-Mar.png"
+              alt="Jay Mar Matias Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Jay Mar</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#certificates" class="header__link">Certificates</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+    
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+    
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#certificates"> Certificates </a>
+            </li>
+    
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="themeClrSelector">
+      <input type="color" value="#0078d7" class="themeClrSelector__input" />
+      <img
+        src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+        class="themeClrSelector__img"
+      />
+    </div>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Jay Mar</h1>
+        <h1 class="heading-primary">Hey, My name is Jay</h1>
         <div class="home-hero__info">
           <p class="text-primary">
             a full-stack web developer and ICT professional with over 8 years of hands-on experience, 
@@ -173,10 +247,9 @@
         <div class="projects__content">
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <video controls autoplay
-                class="projects__row-img"
-                loading="lazy"
-              ><source src="./assets/video/uia.mp4" type="video/mp4"></video>
+              <video controls autoplay class="projects__row-img" loading="lazy">
+                <source src="./assets/video/uia.mp4" type="video/mp4">
+              </video>
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">UIA WEBSITE</h3>
@@ -186,30 +259,9 @@
                 and the community.
               </p>
               <a
-                href="./project-1.html"
+                href="./project-uia.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/gif/BOPS.gif"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">BOPS</h3>
-              <p class="projects__row-content-desc">
-                It is a web-based application for profiling barangay officials throughout the Philippines
-              </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >VIEW</a
               >
             </div>
           </div>
@@ -230,9 +282,79 @@
                 regarding request statuses.
               </p>
               <a
-                href="./project-3.html"
+                href="./project-requisition.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >VIEW</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/gif/PP.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">PARENT PORTAL</h3>
+              <p class="projects__row-content-desc">
+                The parent portal at UIA is an exclusive online platform with restricted access only 
+                to UIA parents, streamlining information for them during onboarding and offering easy 
+                access to staff key contacts for direct communication with teachers, school 
+                announcements, and vital resources, including newsletters and helpful documents, to 
+                support their needs effectively.
+              </p>
+              <a
+                href="./project-pp.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >VIEW</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/gif/RECRUITMENT.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">RECRUITMENT</h3>
+              <p class="projects__row-content-desc">
+                The web-based application streamlines the personnel hiring process from interviews 
+                to job offers, with features including report generation, applicant status monitoring, 
+                and email notifications.
+              </p>
+              <a
+                href="./project-recruitment.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >VIEW</a
+              >
+            </div>
+          </div>
+          
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/gif/BOPS.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">BOPS</h3>
+              <p class="projects__row-content-desc">
+                It is a web-based application for profiling barangay officials throughout the Philippines
+              </p>
+              <a
+                href="./project-bops.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >VIEW</a
               >
             </div>
           </div>
@@ -253,25 +375,137 @@
                 report generation to streamline claim assistance processing.
               </p>
               <a
-                href="./project-3.html"
+                href="./project-eclip.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >Case Study</a
+                >VIEW</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/gif/QMS.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">QMS</h3>
+              <p class="projects__row-content-desc">
+                The web-based application streamlines the management of quality procedures, 
+                submission processes, and report monitoring and tracking systems for 
+                Process Performance Monitoring Measurement.
+              </p>
+              <a
+                href="./project-qms.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >VIEW</a
               >
             </div>
           </div>
       </div>
     </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
+    <section id="certificates" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <a href="mailto:jmar.matias26@gmail.com" class="btn btn--med btn--med-vc">Email Me</a>
+          <span class="heading-sec__main">Certificates</span>
+          <span class="heading-sec__sub"></span>
         </h2>
-        
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Education</h3>
+            <div class="about__content-details">
+              <h1 class="about__content-list">2018 - 2019 Polytechnic University of the Philippines</h1>
+              <p class="about__content-details-para">
+                Master's in Information Technology
+              </p>
+
+              <h1 class="about__content-list">2012 - 2016 Quezon City University</h1>
+              <p class="about__content-details-para">
+                BS Information Technology major in Computer Science
+              </p>
+              <p class="about__content-details-para">
+                Cum Laude
+              </p>
+              <p class="about__content-details-para">
+                System Developer of the Year
+              </p>
+              <p class="about__content-details-para">
+                Best Capstone of the Year, Best Capstone Project in Web-Based criteria and Nominee for Best Capstone Project
+              </p>
+
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Awards & Certificates</h3>
+            <div>
+              <h1 class="about__content-list"><a href="https://www.coursera.org/account/accomplishments/verify/8VBR6N37BDFE" target="_blank">Google Technical Support Fundamentals Certificate</a></h1>
+              <h1 class="about__content-list"><a href="https://www.coursera.org/account/accomplishments/verify/TD9PZ6E9Q5NZ" target="_blank">Google Bits & Bytes of Computer Networking Certificate</a></h1>
+              <h1 class="about__content-list">Japanese Language Proficiency Test Certificate – N5 Passer</h1>
+              <h1 class="about__content-list">120 Hour Teaching English as a Foreign language (TEFL) Certificate</h1>
+              <h1 class="about__content-list">Civil Service Eligibility – Honor Graduates Eligibility</h1>
+
+
+        </div>
       </div>
     </section>
-    <footer class="main-footer"><div id="footer-content"></div></footer>
-
+    <section id="contact" class="contact sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med btn-vc">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <a href="mailto:jmar.matias26@gmail.com" class="btn btn--med btn-vc">Email me</a>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" href="https://www.linkedin.com/in/jay-mar-m-572953111/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" href="https://github.com/JayMar0526">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/ramyaj.mm">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Jay Mar Matias</h4>
+            <p class="main-footer__short-desc">
+              Feel free to reach out if you're interested in working with me. Thank you.
+            </p>
+          </div>
+        </div>
+    
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2024. Created by Jay Mar Matias | Template Credit by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>
