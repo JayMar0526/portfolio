@@ -5,10 +5,7 @@
 <br>
 
 #### Note: 
-I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in Philippines )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/jay-mar-m-572953111/)** or my email id **jmar.matias26@gmail.com** 🙌
-
-#### Note: 
-I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in Philippines )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
+I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in Philippines )**. So, if you have a good opportunity that matches my skills and experience then you can contact me on my **[Linkedin](https://linkedin.com/jay-mar-m-572953111/)** or my email id **jmar.matias26@gmail.com** 🙌
 
 
 <br>
