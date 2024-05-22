@@ -1,6 +1,6 @@
 ## Author 👨‍💻
 
-- **Ram Maheshwari** - **[Linkedin](https://linkedin.com/in/rammcodes)**, **[Twitter](https://twitter.com/rammcodes)**, **[Github](https://github.com/rammcodes)**, **[Portfolio](https://rammaheshwari.com)**  
+- **Jay Matias** - **[Linkedin](https://www.linkedin.com/in/jay-mar-m-572953111/)**, **[Github](https://github.com/JayMar0526)**, **[Portfolio](https://jaymar0526.github.io/portfolio/)**  
 
 <br>
 
